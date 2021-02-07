@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+<style>
+    body {
+        text-align: center;
+    }
+
+    #jumpmain {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+        font-style: inherit;
+        color: rgb(109, 16, 231);
+    }
+</style>
+
+<body>
+    <br><br><br><br><br><br>
+    <div id="jumpmain">
+        <h1>Jumping to /HAPI/main.html .....</h1>
+        <h2>This may take a few seconds.....</h2>
+    </div>
+</body>
+<script>
+    setTimeout(function () {
+        jump();
+    }, 5000);
+    function jump() {
+        window.location.href = "main.html"
+    }
+</script>
+
+</html>
